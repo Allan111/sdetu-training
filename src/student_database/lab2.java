@@ -102,6 +102,7 @@ class Student{
 	}
 	public void checkBalance() {
 		System.out.println("Balance: £" + balance);
+		System.out.println("adding code to project...");
 	}
 
 	public void showCourses() {
