@@ -98,18 +98,18 @@ class Student{
 	}
 	public void payTuition(int amount) {
 		balance = balance - amount;
-		System.out.println("Payment: £" + amount + " recieved.");
+		System.out.println("Payment: Â£" + amount + " recieved.");
 	}
 	public void checkBalance() {
-		System.out.println("Balance: £" + balance);
-		System.out.println("adding code to project...");
+		System.out.println("Balance: Â£" + balance);
+		System.out.println("adding code to project...222222");
 	}
 
 	public void showCourses() {
 		System.out.println(course);
 	}
 	public String toString() {
-		return "[NAME: " + name + " ]\n[COURSES: " + course + " ]\nBALANCE: £" + balance + " ]";
+		return "[NAME: " + name + " ]\n[COURSES: " + course + " ]\nBALANCE: Â£" + balance + " ]";
 	}
 
 }
